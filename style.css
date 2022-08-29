@@ -1,11 +1,11 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
 html, body {
     margin: 0;
     padding: 0;
     background-color: rgb(23, 27, 48);
 }
-
-
-
 
 header {
     position: fixed;
@@ -21,14 +21,14 @@ nav {
     text-align: right;
 }
 
-a {
+a, figcaption, h4 {
     color: white;
 }
 
 figure {
     display: block;
     position: relative;
-    left: 65px;
+    left: 300px;
     top: 150px;
 }
 
@@ -72,10 +72,6 @@ input[type=text], select, textarea {
     margin: 15px;
     position: absolute;
     top: 1470px;
-  }
-
-  h4 {
-    color: white;
   }
 
   span {
