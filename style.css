@@ -67,3 +67,17 @@ input[type=text], select, textarea {
     position: relative;
     top: 200px;
   }
+
+  footer {
+    margin: 15px;
+    position: absolute;
+    top: 1470px;
+  }
+
+  h4 {
+    color: white;
+  }
+
+  span {
+    font-style: italic;
+  }
