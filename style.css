@@ -14,10 +14,15 @@ header {
     width: 100%;
     top: 0%;
     text-align: left;
+    z-index: 1;
 }
 
-#you {
-    font-weight: bolder;
+nav {
+    text-align: right;
+}
+
+a {
+    color: white;
 }
 
 figure {
@@ -59,4 +64,6 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    position: relative;
+    top: 200px;
   }
